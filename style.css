@@ -30,18 +30,16 @@ html {
   color: white;
   margin: 5px;
 }
-
 .icon {
   display: flex;
   height: 50px;
   margin: 10px;
 }
-.body {
+body {
   margin: 0;
   position: relative;
   text-align: center;
   z-index: 5;
-
 }
 .box1 h2,
 .box1 h4 {
@@ -50,21 +48,22 @@ html {
 .box1heading {
   display: flex;
   width: 1200px;
-  justify-content: center;
+  display: block;
+  background-color: black;
+  height: 100px;
 }
 
 .box1 {
-  margin-top: 100px;
+  margin-top: 60px;
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-
   display: inline-block;
   height: 700px;
   width: 1200px;
+  align-items: center;
 }
 .box2 {
   display: flex;
-
   display: inline-flex;
   width: 1000px;
   flex-wrap: wrap;
@@ -78,22 +77,18 @@ html {
 }
 .child {
   display: flex;
-  border: 1px solid white;
   display: block;
-
 }
 .image {
   height: 200px;
   width: 300px;
-
 }
 .box3 {
   display: flex;
-
-    display: inline-flex;
-    justify-content: center;
-    width: 1200px;
-    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  display: inline-flex;
+  justify-content: center;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 }
 .childa {
   display: flex;
@@ -105,7 +100,7 @@ html {
 }
 .footer {
   display: flex;
-    border: 1px solid white;
-    display: block;
-    width: 1200px;
+  border: 1px solid white;
+  display: block;
+  width: 1200px;
 }
