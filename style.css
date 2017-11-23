@@ -52,6 +52,7 @@ body {
   display: block;
   background-color: black;
   height: 100px;
+  align-content: center;
 }
 
 .box1 {
@@ -105,7 +106,6 @@ body {
   margin-right: 20px;
   background-color: black;
   align-content: center;
-  justify-content: center;
 }
 .footer {
   display: flex;
@@ -116,4 +116,5 @@ body {
 }
 .last {
   text-align: left;
+  margin-left: 20px;
 }
