@@ -56,10 +56,12 @@ body {
 .box1 {
   margin-top: 60px;
   display: flex;
+  display: inline-block;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
   align-items: center;
+  justify-content: center;
 }
 .box2 {
   display: inline-flex;
@@ -86,7 +88,7 @@ body {
 }
 .box3 {
   display: flex;
-  display: block;
+  display: inline-block;
   align-content: center;
   justify-content: center;
   width: 1200px;
